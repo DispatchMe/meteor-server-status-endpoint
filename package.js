@@ -1,7 +1,8 @@
 Package.describe({
   name: 'dispatch:server-status-endpoint',
-  version: '0.0.1',
-  summary: 'Show mongo status at /server-status'
+  version: '0.0.2',
+  summary: 'Show mongo status at /server-status',
+  git: 'https://github.com/DispatchMe/meteor-server-status-endpoint.git'
 });
 
 Package.onUse(function(api) {
