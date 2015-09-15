@@ -7,7 +7,8 @@ callback-hook@1.0.3
 check@1.0.5
 ddp@1.1.0
 deps@1.0.7
-dispatch:server-status-endpoint@0.0.1
+dispatch:cloudwatch-metrics@0.0.5
+dispatch:server-status-endpoint@0.0.3
 ejson@1.0.6
 geojson-utils@1.0.3
 html-tools@1.0.4
@@ -22,6 +23,8 @@ minimongo@1.0.8
 mongo@1.1.0
 observe-sequence@1.0.6
 ordered-dict@1.0.3
+peerlibrary:aws-sdk@2.0.17_2
+peerlibrary:blocking@0.4.3
 random@1.0.3
 reactive-var@1.0.5
 retry@1.0.3
