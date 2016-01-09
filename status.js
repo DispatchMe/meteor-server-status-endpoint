@@ -11,6 +11,7 @@ var doPing = Meteor.wrapAsync(function(callback) {
     callback(null, end - start);
   });
 });
+
 Meteor.method('serverStatus', function() {
   var status = {
     mongo: {
@@ -28,7 +29,6 @@ Meteor.method('serverStatus', function() {
   }
 
   return status;
-
 }, {
   url: 'server-status',
   httpMethod: 'get'

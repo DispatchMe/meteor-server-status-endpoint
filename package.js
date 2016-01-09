@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom('1.2.1');
 
   api.use([
     // core
@@ -16,8 +16,8 @@ Package.onUse(function(api) {
 
     // community
     'dispatch:cloudwatch-metrics@0.0.5',
-    'simple:json-routes@1.0.3',
-    'simple:rest@0.2.3'
+    'simple:json-routes@2.0.0',
+    'simple:rest@1.0.0'
   ], 'server');
 
   api.addFiles([
